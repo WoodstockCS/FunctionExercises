@@ -1,3 +1,24 @@
-//
-// DO THIS EXERCISE ON PAPER. THEN TYPE THE CODE INTO PROCESSING TO CHECK YOUR ANSWER.
-//
+void setup(){
+  println( "a");
+  function1();
+  println("b");
+ }
+  
+  void draw() {
+  println("c");
+  function2();
+  println("d");
+  function1();
+  noLoop();
+ }
+ 
+ void function1()  {
+   println("e");
+   println("f");
+ }
+ 
+ void function2() {
+ println("g");
+ function1();
+ println("h");
+ }
